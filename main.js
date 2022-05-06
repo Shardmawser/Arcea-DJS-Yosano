@@ -4,7 +4,6 @@ require("dotenv").config();
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
 
 const prefix = '*';
-const token = 'OTcyMDAzOTU0MTYwNDQ3NDg4.G3HCpW.NGHDBOpzsZlc1nuIjklmDaIrfjZxlfFVO-N4oE';
 
 client.on('ready', () => {
     console.log("Yosano is online");
